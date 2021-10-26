@@ -2,8 +2,13 @@
   "name": "init",
   "version": "1.0.0",
   "description": "",
-    "scripts": {},
+  "scripts": {
+    "start": "nodemon doubleLinkedList.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
